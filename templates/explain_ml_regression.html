@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Platform - Explain Regression (Ensemble)</title>
+    <!-- ใช้งาน Bootstrap 5 ผ่าน CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .feature-icon {
+            font-size: 2rem;
+            color: #0d6efd;
+            margin-bottom: 2rem;
+        }
+
+        .highlight-card {
+            border-left: 5px solid #0d6efd;
+            transition: 0.3s;
+        }
+
+        .highlight-card:hover {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <!-- แถบนำทาง Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">Dataset Analysis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">เลือกชุดข้อมูล (Dataset)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/model/ml_regression">Ensemble ML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/model/nn_regression">Neural Network</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- คอนเทนเนอร์หลัก -->
+    <div class="container mt-5 mb-5">
+
+        <h2 class="fw-bold text-primary mb-4">การทำนายค่าใช้จ่าย (Regression) ด้วยระบบผู้เชี่ยวชาญแบบจำลอง (Ensemble Machine Learning)</h2>
+        <div class="row g-4 mb-5">
+            <div class="col-md-8">
+                <div class="card border-0 shadow-sm rounded-4 h-100">
+                    <div class="card-body p-4">
+                        <h4 class="fw-bold mb-3">หลักการทำงานแบบ Ensemble</h4>
+                        <p class="fs-5 text-muted">
+                            สำหรับหน้าแพลตฟอร์มนี้ โหมดการทำนายค่าใช้จ่ายประกันสุขภาพ (Healthcare Insurance)
+                            ทำงานด้วยหลักการ <strong>Voting Regressor</strong> ซึ่งเป็นการรวมผลลัพธ์จากอัลกอริทึม
+                            Machine Learning ถึง 3 ตัวเข้าด้วยกัน (เฉลี่ยคำตอบ):
+                        </p>
+                        <ul class="list-group list-group-flush fs-5">
+                            <li class="list-group-item bg-transparent text-secondary border-light">🌲
+                                <strong>Random Forest Regressor:</strong> จำลองการสร้างต้นไม้ตัดสินใจหลายๆ ต้น และหาค่าเฉลี่ย</li>
+                            <li class="list-group-item bg-transparent text-secondary border-light">📏
+                                <strong>Support Vector Regressor (SVR):</strong> หาเส้นขอบเขตที่ครอบคลุมชุดข้อมูลที่มีความคลาดเคลื่อนยอมรับได้</li>
+                            <li class="list-group-item bg-transparent text-secondary border-light">📡
+                                <strong>K-Nearest Neighbors (KNN):</strong> พยากรณ์จากค่าเฉลี่ยของข้อมูลที่ใกล้เคียงที่สุดบนกราฟ 5 จุด</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm rounded-4 h-100 bg-primary text-white text-center d-flex align-items-center justify-content-center p-4">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                            class="bi bi-stack mb-3" viewBox="0 0 16 16">
+                            <path
+                                d="m7.365 5.053 5.34-2.67c.284-.142.284-.572 0-.714l-5.34-2.67a.5.5 0 0 0-.447 0l-5.34 2.67c-.284.142-.284.572 0 .714l5.34 2.67a.5.5 0 0 0 .447 0z" />
+                            <path
+                                d="M12.913 8.374l1.246-.622c.284-.142.284-.572 0-.714l-5.34-2.67a.5.5 0 0 0-.447 0l-5.34 2.67c-.284.142-.284.572 0 .714l1.246.622L7.365 10.53a.5.5 0 0 0 .447 0l4.654-2.327zM2.5 10.9V13a.5.5 0 0 0 .276.447l4.5 2.25a.5.5 0 0 0 .448 0l4.5-2.25A.5.5 0 0 0 12.5 13v-2.1l-4.276 2.138a.5.5 0 0 1-.448 0L2.5 10.9z" />
+                        </svg>
+                        <h4 class="fw-bold">จุดเด่น</h4>
+                        <p class="mb-0">ช่วยลดข้อผิดพลาด ป้องกันการจำข้อสอบ (Overfitting)
+                            มีเสถียรภาพในการพยากรณ์ตัวเลขมากกว่าการใช้โมเดลเดี่ยวๆ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-2">
+            <!-- ส่วนกล่องแจ้งเตือนผลลัพธ์ -->
+            <div class="col-md-12">
+                {% if message %}
+                <div class="alert alert-warning alert-dismissible fade show shadow-sm text-center fs-5" role="alert">
+                    {{ message | safe }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- ส่วนฟอร์มกรอกข้อมูลเพื่อทดสอบ -->
+        <h3 class="fw-bold mb-4">ทดสอบการทำนายค่าใช้จ่าย (Predict Charges)</h3>
+        <div class="card border-0 shadow-sm rounded-4 mb-5 p-4">
+            <form action="/predict/ml_regression" method="POST">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label class="form-label fw-bold">อายุ (Age)</label>
+                        <input type="number" class="form-control" name="age" required placeholder="เช่น 35">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label fw-bold">เพศ (Sex)</label>
+                        <select class="form-select" name="sex" required>
+                            <option value="0">หญิง (Female)</option>
+                            <option value="1">ชาย (Male)</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label fw-bold">ดัชนีมวลกาย (BMI)</label>
+                        <input type="number" step="0.1" class="form-control" name="bmi" required placeholder="เช่น 25.5">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label fw-bold">จำนวนบุตร (Children)</label>
+                        <input type="number" class="form-control" name="children" required placeholder="เช่น 0, 1, 2">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label fw-bold">การสูบบุหรี่ (Smoker)</label>
+                        <select class="form-select" name="smoker" required>
+                            <option value="0">ไม่สูบ (No)</option>
+                            <option value="1">สูบ (Yes)</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label fw-bold">ภูมิภาค (Region)</label>
+                        <select class="form-select" name="region" required>
+                            <option value="0">Southwest</option>
+                            <option value="1">Southeast</option>
+                            <option value="2">Northwest</option>
+                            <option value="3">Northeast</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary btn-lg px-5 shadow rounded-pill">ทำนายผลลัพธ์ (Predict)</button>
+                    <a href="/" class="btn btn-outline-secondary btn-lg px-5 ms-3 rounded-pill">กลับหน้ารายการ</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ใช้งาน Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

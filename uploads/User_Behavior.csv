@@ -1,0 +1,401 @@
+gender,age,education_level,employment_type,city_type,monthly_expense,monthly_income,owns_car,internet_usage_hours,subscribed_newsletter
+Non-binary,45,,Freelance,Suburban,,4102.26,No,1.3,1
+Male,51,Master,Part-time,Suburban,2433.33,2388.53,Yes,9.7,0
+Non-binary,19,Master,Full-time,Rural,4163.49,3936.31,No,8,0
+Non-binary,49,Bachelor,Part-time,Rural,2070.67,6281.69,Yes,9.8,1
+Male,40,PhD,Part-time,Suburban,2219.7,5822.79,Yes,5.3,0
+Male,39,High School,Full-time,Suburban,3640.19,3616.35,Yes,5.8,0
+Non-binary,42,Bachelor,Freelance,Rural,3402.77,7281.76,No,,0
+Female,39,High School,Freelance,Rural,3689.86,7022.42,Yes,3.2,0
+Non-binary,39,,Unemployed,Urban,1836.78,3900.49,No,8.5,0
+Non-binary,59,,Full-time,Urban,5564.06,3885.06,Yes,4.2,1
+Non-binary,23,PhD,Unemployed,Rural,1784.25,4110.76,No,8.4,1
+Non-binary,32,,Unemployed,Suburban,3154.25,4239,No,,0
+Male,60,Master,Unemployed,Suburban,2841.34,6425.81,No,2.6,1
+Non-binary,54,Bachelor,Freelance,Suburban,1813.36,5637.99,Yes,5.6,0
+Female,50,Master,Full-time,Suburban,2629.79,6315.62,Yes,7.1,0
+Male,25,High School,Unemployed,Urban,3023.31,6010.35,No,3.1,0
+Female,61,High School,Full-time,Rural,2350.03,7571.79,No,8.5,0
+Female,61,High School,Full-time,Suburban,3937.22,3410.92,No,5.9,0
+Female,22,PhD,Freelance,Urban,2838.37,5570.54,Yes,2.5,1
+Female,56,Bachelor,Unemployed,Suburban,1658.73,1739.27,Yes,6.2,1
+Male,21,PhD,Unemployed,Rural,1573.87,3024.57,Yes,10,0
+Male,23,High School,Full-time,Urban,3606.17,4887.72,Yes,2.4,1
+Female,62,Bachelor,Part-time,Rural,,5627.31,No,8.4,0
+Female,49,,Freelance,Rural,3316.43,4847.28,No,2.9,1
+Male,47,PhD,Freelance,Urban,3444.66,4149.21,Yes,8,0
+Male,64,PhD,Freelance,Urban,2004.64,4415.87,Yes,7.6,1
+Male,52,PhD,Freelance,Urban,3890.74,7054.16,No,3.7,0
+Non-binary,57,High School,Unemployed,Urban,1282.21,4423.95,Yes,3.9,0
+Non-binary,33,Bachelor,Unemployed,Urban,3296.46,7623.86,Yes,8.1,1
+Non-binary,30,Bachelor,Part-time,Urban,,6191.03,Yes,5.2,1
+Female,59,,Freelance,Urban,2881,5686.31,Yes,7.6,0
+Non-binary,47,Bachelor,Freelance,Suburban,1822.1,3209.6,Yes,2.3,1
+Female,36,High School,Full-time,Rural,,6402.86,Yes,,0
+Female,34,,Unemployed,Urban,4618.8,4259.34,No,,1
+Non-binary,36,Master,Freelance,Suburban,,3208.34,Yes,9.2,1
+Female,45,Master,Part-time,Suburban,3742.08,5769.27,Yes,2.2,0
+Non-binary,43,PhD,Part-time,Suburban,3939.85,2918.08,No,6.3,1
+Non-binary,54,Master,Unemployed,Rural,3846.01,3856.64,No,6.4,1
+Male,43,Master,Part-time,Urban,2676.64,4984.83,No,4.2,0
+Non-binary,40,Master,Part-time,Suburban,3047.6,8327.63,Yes,5.1,1
+Male,26,High School,Unemployed,Rural,,3969.63,No,,0
+Non-binary,29,Master,Freelance,Rural,2910.3,4312.68,Yes,7.7,0
+Non-binary,18,Master,Freelance,Rural,4183.41,6098.52,Yes,5.9,0
+Male,18,,Part-time,Suburban,2339.29,3142.56,Yes,1.5,0
+Male,64,Master,Part-time,Urban,4023.14,5664.21,No,7.1,0
+Non-binary,51,Master,Freelance,Suburban,3091.59,6808.89,No,5.2,1
+Female,49,Bachelor,Unemployed,Suburban,,4539.36,No,1.3,0
+Male,42,PhD,Part-time,Urban,1892.68,6539.23,No,9.7,0
+Female,57,PhD,Full-time,Urban,3919.3,5437.17,No,9.5,1
+Female,62,PhD,Unemployed,Urban,3552.52,3903.98,Yes,5.6,1
+Female,18,PhD,Part-time,Rural,3101.76,4703.29,Yes,1.8,1
+Male,33,PhD,Part-time,Urban,2725.97,4430.36,Yes,7.8,0
+Female,56,PhD,Full-time,Suburban,3210.57,4868.54,Yes,5.4,0
+Male,22,High School,Full-time,Urban,3880.3,5229.08,No,3.7,0
+Female,39,Master,Freelance,Suburban,4475.85,5882.3,No,5.4,1
+Non-binary,46,PhD,Unemployed,Rural,4523.68,5763,Yes,5.7,0
+Non-binary,20,Master,Unemployed,Suburban,3371.96,1352.43,No,6.1,1
+Male,29,Master,Freelance,Suburban,2828.07,4854.04,No,5,0
+Non-binary,43,High School,Unemployed,Urban,3146.25,2735.87,Yes,6.5,1
+Non-binary,33,,Unemployed,Urban,3522.12,4586.41,Yes,9.3,0
+Female,54,Bachelor,Unemployed,Suburban,3518.07,4814.32,No,4.3,0
+Male,39,High School,Unemployed,Urban,4307.99,6464.22,No,7.5,0
+Female,46,Bachelor,Unemployed,Rural,5115.76,4954.83,Yes,9.1,1
+Female,31,Master,Full-time,Rural,2794.75,5388.83,Yes,5.1,1
+Female,45,Master,Unemployed,Urban,5155.88,6189.58,Yes,5,0
+Female,22,High School,Full-time,Rural,4172.24,6841.63,No,6.4,0
+Female,64,High School,Unemployed,Urban,,4815.48,Yes,6.3,0
+Female,47,Bachelor,Freelance,Suburban,4498.56,5141.27,Yes,8.3,1
+Female,63,PhD,Part-time,Suburban,4685.65,5015.03,No,5.3,0
+Male,22,,Full-time,Rural,2539.7,4186.1,No,10,0
+Non-binary,29,High School,Unemployed,Urban,4732.22,3846.33,No,1.5,0
+Female,33,Bachelor,Freelance,Urban,4075.08,1592.17,No,1,0
+Female,43,High School,Part-time,Rural,5368.56,3385.01,No,6.8,1
+Female,43,Bachelor,Full-time,Suburban,2575.96,2332.05,Yes,,1
+Female,38,,Part-time,Rural,2646.57,6882.8,Yes,,0
+Female,56,High School,Freelance,Suburban,973.34,5282.62,No,3.8,0
+Female,53,High School,Full-time,Urban,3571.19,4811.09,No,3.3,1
+Non-binary,50,PhD,Part-time,Suburban,3375.25,3923.77,No,1.3,1
+Non-binary,47,Bachelor,Unemployed,Rural,2437.01,5044.67,No,9.7,0
+Female,54,Bachelor,Full-time,Urban,2918.15,3728.03,No,3,1
+Non-binary,40,,Part-time,Rural,1688.78,5261.03,Yes,7.6,1
+Male,27,High School,Freelance,Rural,4198.44,5368.6,Yes,7.9,0
+Female,22,Bachelor,Freelance,Suburban,2510.3,3707.92,Yes,9.4,1
+Male,53,Bachelor,Full-time,Rural,6094.05,3679.31,Yes,1.3,1
+Male,51,High School,Part-time,Suburban,2824.4,6443.3,No,8.8,0
+Female,48,Master,Full-time,Urban,2240.38,4920.71,Yes,,0
+Non-binary,27,High School,Full-time,Suburban,2587.69,3828.47,No,6.7,1
+Male,36,Bachelor,Part-time,Urban,1588.04,4444.24,No,6.8,0
+Female,49,High School,Part-time,Suburban,3482.27,3484.11,No,8.4,1
+Male,18,Master,Unemployed,Rural,2580.1,4899.22,Yes,4,0
+Male,22,High School,Part-time,Suburban,4131.25,6247.44,No,7.6,1
+Male,62,Bachelor,Freelance,Suburban,2725.25,4958.49,Yes,,0
+Male,21,Master,Full-time,Urban,4384.44,8545.45,Yes,8.1,1
+Non-binary,33,PhD,Full-time,Rural,3757.46,5632.04,No,9.9,1
+Male,41,Bachelor,Freelance,Suburban,3028.6,5344.93,No,2.8,1
+Male,33,Master,Part-time,Rural,4580.23,3637.55,No,10,0
+Male,19,Master,Freelance,Suburban,3952.29,4642.2,Yes,1.8,0
+Non-binary,45,PhD,Freelance,Suburban,5946.21,3831.48,No,1,1
+Male,49,,Unemployed,Rural,2590.54,1751.53,Yes,1.4,1
+Male,44,High School,Freelance,Suburban,,6461.39,No,4.1,0
+Non-binary,37,Bachelor,Full-time,Rural,4568.71,4232.82,No,6.7,0
+Non-binary,41,PhD,Freelance,Suburban,1456.46,3859.4,Yes,1.6,0
+Non-binary,29,High School,Full-time,Urban,,5315.86,Yes,1.1,0
+Male,52,PhD,Full-time,Rural,3439.3,5768.75,Yes,9.4,0
+Non-binary,50,,Full-time,Suburban,,4518.84,Yes,8.4,0
+Non-binary,50,Master,Part-time,Suburban,1636.96,4996.1,Yes,8.3,1
+Male,60,High School,Unemployed,Urban,2327.51,6119.28,Yes,9,0
+Non-binary,54,PhD,Full-time,Rural,715.18,4459.71,No,7.3,1
+Male,29,Master,Full-time,Suburban,2510.46,5453.5,No,1.9,0
+Female,20,Master,Part-time,Urban,3622.56,2511.13,Yes,4.6,0
+Non-binary,18,Master,Full-time,Suburban,2523.7,3138.02,No,7.5,1
+Female,50,PhD,Freelance,Rural,4388.31,5908.31,Yes,3.5,1
+Male,57,Bachelor,Freelance,Suburban,4659.95,3059.66,No,7.2,0
+Non-binary,27,Bachelor,Unemployed,Suburban,4275.64,5351.21,No,,1
+Male,60,Bachelor,Full-time,Suburban,3230.64,4779.5,Yes,3.8,1
+Female,61,PhD,Part-time,Suburban,675.32,4453.3,Yes,5.9,1
+Male,46,Master,Freelance,Urban,2296.3,3757.31,Yes,,1
+Non-binary,30,Bachelor,Part-time,Urban,2857.96,6364.01,No,6.2,0
+Non-binary,29,PhD,Part-time,Rural,2106.13,7594.84,Yes,7.3,1
+Female,48,Bachelor,Freelance,Urban,2860.49,5450.29,No,1.1,0
+Male,63,High School,Part-time,Urban,4610.07,5483.74,Yes,1.9,0
+Non-binary,19,Bachelor,Freelance,Rural,1354.22,3976.5,No,8.8,0
+Female,52,Bachelor,Part-time,Urban,4811.69,3205.85,No,7.1,0
+Non-binary,40,Master,Freelance,Urban,3884.73,4940.39,Yes,,1
+Non-binary,34,,Full-time,Rural,3268.22,3539.38,No,8.6,1
+Male,43,Master,Unemployed,Rural,2286.38,2341.08,No,3.2,0
+Non-binary,25,Master,Freelance,Rural,2126.05,6205.17,Yes,,0
+Male,46,Master,Freelance,Suburban,1373.78,6278.25,No,2.3,0
+Non-binary,43,Master,Unemployed,Suburban,4716.77,3711.74,Yes,7.4,0
+Female,27,,Freelance,Rural,,5365.95,Yes,7,1
+Non-binary,43,Bachelor,Freelance,Rural,1593.72,6502.93,Yes,2.9,0
+Male,51,Master,Part-time,Rural,2447.37,5307.54,Yes,8.8,1
+Male,58,Master,Unemployed,Suburban,3433.14,3210.27,No,4.6,0
+Female,24,PhD,Full-time,Suburban,2700.49,4650.66,No,3.6,0
+Non-binary,21,High School,Freelance,Urban,,6990.21,No,2.4,0
+Non-binary,62,Bachelor,Unemployed,Urban,2342.23,5370.54,Yes,3.4,0
+Female,28,Bachelor,Part-time,Rural,,5808.7,No,1.2,1
+Non-binary,46,Bachelor,Full-time,Suburban,2410.02,5512.44,No,6.2,1
+Non-binary,53,Master,Unemployed,Suburban,2836.53,3716.73,Yes,8.6,1
+Male,42,Master,Full-time,Suburban,1854.82,4068.73,Yes,5.9,0
+Non-binary,38,Master,Full-time,Rural,,5508.3,No,3,0
+Non-binary,53,PhD,Full-time,Urban,3115.15,6225.31,Yes,1.3,1
+Female,27,High School,Freelance,Rural,2257.98,6649.86,Yes,2.9,1
+Female,54,Master,Freelance,Urban,1695.34,3712.84,Yes,4.7,0
+Male,26,High School,Part-time,Urban,4404.54,5649.68,Yes,7.8,0
+Non-binary,41,PhD,Part-time,Rural,1394.46,6780.57,No,,1
+Non-binary,52,Bachelor,Unemployed,Urban,3503.82,3519.38,Yes,7.5,0
+Non-binary,52,Master,Part-time,Urban,846.12,7230.12,Yes,,0
+Male,53,High School,Full-time,Suburban,3707.21,7458.41,Yes,5.1,1
+Male,35,High School,Full-time,Urban,3970.3,8937.63,Yes,,0
+Female,56,Master,Freelance,Rural,4094.78,5346.4,Yes,6,1
+Male,49,Bachelor,Full-time,Rural,2838.79,5354.64,Yes,6.7,0
+Non-binary,41,Bachelor,Unemployed,Urban,4584,6240.49,Yes,5.7,1
+Non-binary,40,Bachelor,Full-time,Suburban,,6196.7,Yes,,0
+Male,49,PhD,Full-time,Suburban,2678.38,6689.55,No,3.1,1
+Non-binary,54,High School,Unemployed,Urban,2548.99,6176.05,Yes,3.7,1
+Non-binary,29,High School,Part-time,Urban,3149.18,4840.91,No,3.6,1
+Male,30,High School,Part-time,Rural,2522.32,6833,Yes,6.1,1
+Male,40,PhD,Unemployed,Urban,2376.13,3393.12,Yes,2.1,0
+Non-binary,42,High School,Freelance,Suburban,2463.26,5008.78,Yes,9.3,0
+Non-binary,52,PhD,Full-time,Urban,4715.76,7345.6,Yes,,1
+Non-binary,58,Bachelor,Unemployed,Rural,,3124.63,No,4.6,0
+Female,47,,Full-time,Rural,2519.05,3983.79,Yes,2.4,0
+Female,34,High School,Freelance,Rural,544.87,6007.62,Yes,8.9,0
+Female,37,High School,Full-time,Rural,1455.54,5590.87,No,8.4,0
+Male,42,Bachelor,Unemployed,Rural,3503.43,3687.46,No,7.5,0
+Female,39,,Full-time,Urban,878.44,4375.71,Yes,3.4,1
+Male,30,PhD,Part-time,Urban,3292.99,3228.83,No,4.6,1
+Male,36,Master,Freelance,Urban,1934.44,6470.73,No,1.9,1
+Female,53,Bachelor,Freelance,Urban,3091.81,4616.18,No,2.7,1
+Female,29,,Freelance,Rural,3063.86,7688.23,Yes,8,0
+Female,58,Master,Unemployed,Suburban,3120.59,5121.65,Yes,,0
+Non-binary,36,PhD,Freelance,Urban,2605.58,4670.39,Yes,6.3,1
+Female,29,PhD,Part-time,Suburban,2572.71,4524.77,No,9.1,0
+Non-binary,26,High School,Unemployed,Urban,2279.21,4633.7,Yes,6.2,0
+Male,24,PhD,Part-time,Urban,3483.89,5166.23,No,5.2,1
+Non-binary,45,Master,Full-time,Suburban,3805.19,8768.61,Yes,4.1,0
+Female,31,Bachelor,Full-time,Rural,1781.03,4491.71,Yes,9.5,1
+Male,48,High School,Full-time,Urban,2948.37,4540.47,No,1.7,1
+Male,36,High School,Full-time,Urban,,5098.39,Yes,9.4,0
+Male,64,,Part-time,Urban,3183.77,6635.41,No,8.4,0
+Non-binary,33,PhD,Unemployed,Suburban,3166.77,2868.52,No,2.2,1
+Female,22,Bachelor,Unemployed,Rural,2597.97,5682.64,Yes,6.1,1
+Male,52,PhD,Freelance,Suburban,3279.03,3773.86,No,8.8,0
+Male,29,Bachelor,Part-time,Suburban,3618.03,5829.91,Yes,,1
+Male,42,Master,Full-time,Rural,3141.04,4259.36,Yes,9.2,1
+Non-binary,38,PhD,Part-time,Suburban,3505.94,1543.85,No,9.5,1
+Non-binary,53,Master,Freelance,Rural,3990.35,5554.37,Yes,4.8,0
+Female,40,High School,Freelance,Urban,1149.06,5541.72,No,4.4,1
+Non-binary,33,,Part-time,Rural,3943.46,4131.38,Yes,9.4,0
+Male,56,,Part-time,Urban,3342.43,4042.48,Yes,7.1,1
+Female,62,,Part-time,Suburban,1888.37,3032.94,Yes,2,0
+Male,59,High School,Unemployed,Suburban,3802.47,6159.65,Yes,1.4,1
+Male,56,High School,Full-time,Urban,2601.68,6323.32,Yes,,0
+Non-binary,31,Bachelor,Part-time,Suburban,2738.03,3681.42,No,9.4,0
+Female,48,High School,Part-time,Rural,2492.32,4190.1,No,8.6,0
+Non-binary,22,Bachelor,Part-time,Urban,3302.4,4905.07,No,,1
+Non-binary,52,Bachelor,Freelance,Suburban,,8406.3,No,2.3,1
+Female,40,Master,Freelance,Urban,3901.47,5817.68,No,3.3,1
+Male,46,,Unemployed,Rural,2861.14,3584.88,No,8.9,0
+Male,60,PhD,Full-time,Rural,2635.8,5455.67,Yes,2.6,1
+Female,28,Bachelor,Unemployed,Suburban,3752.88,2934.96,Yes,3.5,0
+Male,35,Master,Full-time,Rural,2680.44,6076.99,No,2.2,1
+Female,64,Bachelor,Freelance,Urban,3948.18,7513.32,No,7.1,0
+Female,29,Bachelor,Freelance,Rural,3979.59,7519.69,Yes,,0
+Non-binary,26,Bachelor,Freelance,Urban,1665.2,6102.34,Yes,3.4,0
+Female,27,Master,Unemployed,Urban,4109.26,4124.88,Yes,5.3,1
+Non-binary,61,PhD,Part-time,Rural,1537.96,3048.65,No,6.7,1
+Male,34,Master,Part-time,Suburban,4171.58,2899.69,No,10,1
+Male,55,High School,Freelance,Rural,5028.36,790.67,No,1.9,0
+Male,24,Master,Part-time,Urban,3874.83,6040.78,Yes,5.5,0
+Male,63,Master,Part-time,Urban,,4845.75,Yes,4.5,1
+Non-binary,30,Master,Unemployed,Rural,4063.57,6363.82,No,8.8,1
+Male,57,Master,Full-time,Suburban,5246.13,7142.05,No,5.3,1
+Female,59,PhD,Freelance,Suburban,2696.97,5149.86,Yes,2,0
+Female,26,High School,Freelance,Urban,,5218.94,Yes,6.7,0
+Female,44,PhD,Unemployed,Urban,1811.51,4303.52,Yes,7.9,0
+Non-binary,19,PhD,Unemployed,Suburban,3312.08,4480.87,Yes,1,0
+Male,22,Master,Part-time,Rural,4269.18,6092.7,No,8.7,0
+Male,46,Bachelor,Freelance,Urban,3697.74,4738.44,Yes,,1
+Male,54,Bachelor,Full-time,Urban,6141.97,4521.49,Yes,6,0
+Non-binary,55,,Unemployed,Suburban,3033.03,4972.52,Yes,4.7,0
+Female,36,PhD,Full-time,Rural,1369.33,6329.5,No,7.5,0
+Female,25,Master,Full-time,Suburban,3170.97,3961.01,No,4.3,0
+Male,62,PhD,Freelance,Rural,583.55,4900.21,Yes,8.8,0
+Female,18,,Freelance,Rural,,5367.92,Yes,7.6,1
+Female,39,Bachelor,Unemployed,Rural,4624.38,6740.33,Yes,6.8,0
+Non-binary,34,Bachelor,Freelance,Urban,3325.13,4641.05,No,8.2,0
+Non-binary,24,High School,Freelance,Suburban,3179.42,3923.26,No,7.8,0
+Non-binary,42,Bachelor,Freelance,Suburban,4820.78,4273.46,No,1.3,1
+Non-binary,62,,Full-time,Rural,2729.4,6579.59,Yes,,1
+Male,21,Bachelor,Unemployed,Urban,4261.82,8049.96,No,9.4,1
+Non-binary,53,Master,Part-time,Urban,3129.31,3029.36,Yes,2.1,0
+Female,23,Bachelor,Full-time,Suburban,3380.05,3357.05,Yes,7.6,1
+Male,48,High School,Freelance,Urban,1782.7,4746.8,Yes,,0
+Female,36,Bachelor,Full-time,Urban,2517.95,5166.43,No,1.5,0
+Female,61,Master,Freelance,Rural,1602.48,6180.45,Yes,7.1,1
+Female,56,Master,Freelance,Urban,2904.75,3663.3,No,5.2,0
+Non-binary,44,PhD,Full-time,Rural,3390.4,3405.34,No,6.2,0
+Non-binary,27,Bachelor,Unemployed,Suburban,,5207.13,Yes,1.8,0
+Male,43,Master,Freelance,Urban,5049.18,4612.4,Yes,1.4,1
+Male,36,,Unemployed,Suburban,3278.11,6390.08,No,,0
+Non-binary,56,PhD,Part-time,Suburban,3057.8,5731.04,Yes,8.4,0
+Female,20,High School,Freelance,Urban,3769.66,5833.07,No,8,1
+Male,62,Bachelor,Unemployed,Urban,2171.07,4843.28,Yes,5.9,0
+Non-binary,30,Bachelor,Unemployed,Suburban,3163.48,8533.37,No,1.9,0
+Non-binary,45,,Part-time,Urban,2283.13,3743.38,No,7.2,1
+Non-binary,37,PhD,Unemployed,Rural,4558.68,5916.21,No,3.2,0
+Female,45,Master,Unemployed,Rural,,3095.47,No,9.2,0
+Non-binary,25,PhD,Part-time,Urban,,3389.8,Yes,8.5,0
+Non-binary,58,High School,Freelance,Suburban,3329.32,4088.98,Yes,7.4,0
+Non-binary,56,PhD,Unemployed,Urban,3394.83,7443.99,No,9.5,0
+Non-binary,18,High School,Unemployed,Urban,2418.76,5395.84,No,1.3,1
+Male,20,PhD,Unemployed,Suburban,2104.49,4114.28,Yes,7.6,1
+Male,30,,Full-time,Suburban,2433.2,5561.65,Yes,4,1
+Non-binary,45,High School,Part-time,Rural,3528.33,5052.72,Yes,9.2,1
+Female,42,Bachelor,Full-time,Suburban,2856.15,4262.04,Yes,3.4,0
+Male,50,Bachelor,Part-time,Rural,3796.21,2905.06,Yes,,0
+Non-binary,55,,Freelance,Suburban,3477,7157.81,Yes,8.9,0
+Male,23,Bachelor,Freelance,Urban,723.09,5314.73,No,1.4,0
+Male,61,High School,Unemployed,Rural,3247.5,8260.61,Yes,4.6,0
+Female,62,Bachelor,Part-time,Rural,5250.45,6410.48,Yes,7.9,1
+Non-binary,49,Master,Freelance,Rural,4325.27,5826.98,No,,1
+Non-binary,62,Master,Part-time,Urban,3422.01,4347.19,Yes,3.4,0
+Female,64,PhD,Freelance,Urban,1940.61,3356.98,Yes,3,0
+Female,38,High School,Full-time,Urban,3477.55,4673.4,Yes,2.2,0
+Non-binary,33,Master,Freelance,Urban,3739.75,3313.56,Yes,8.7,1
+Non-binary,38,Master,Full-time,Urban,2746.25,5975.29,Yes,6.2,0
+Female,28,,Freelance,Rural,3316.74,7448.98,No,1.7,0
+Male,54,Bachelor,Unemployed,Urban,4509.66,4608.63,Yes,4.4,0
+Male,53,Bachelor,Full-time,Rural,,6416.74,No,4.3,1
+Female,52,PhD,Freelance,Urban,,3966.16,No,2.6,0
+Male,36,Bachelor,Unemployed,Suburban,3692.7,4546.3,Yes,4.9,1
+Female,37,,Full-time,Rural,,3777.55,No,,1
+Male,35,Master,Unemployed,Suburban,4028.84,1800.3,Yes,4.1,1
+Male,64,Bachelor,Part-time,Rural,3569.79,4945.2,No,7.7,1
+Non-binary,58,PhD,Part-time,Suburban,2432.24,5192.68,No,3,1
+Non-binary,31,Bachelor,Full-time,Urban,3432.19,6598.79,Yes,6.8,1
+Male,32,High School,Freelance,Urban,1857.87,6193.16,Yes,6.1,0
+Male,48,PhD,Full-time,Urban,2749.68,6213.43,Yes,6.1,0
+Non-binary,18,Bachelor,Unemployed,Rural,3502.8,3538.95,Yes,7,0
+Non-binary,20,PhD,Freelance,Suburban,,5689.25,Yes,,1
+Non-binary,33,High School,Part-time,Urban,5468.05,7373.89,No,8.9,0
+Female,40,Master,Freelance,Suburban,,5569.8,No,7.1,1
+Male,28,High School,Part-time,Suburban,2452.51,7742.89,No,5.9,1
+Non-binary,29,High School,Freelance,Urban,2062.22,8028.45,No,8.5,1
+Male,27,High School,Freelance,Urban,2299.65,4597.3,No,6.5,0
+Female,49,High School,Freelance,Suburban,2357,3954.59,No,3.6,1
+Female,33,Master,Unemployed,Urban,1673.58,3857.81,No,2.9,1
+Non-binary,25,Master,Unemployed,Urban,3752.7,2725.8,Yes,2.4,0
+Female,55,PhD,Full-time,Urban,2452.9,4222.4,Yes,9.1,0
+Male,29,Bachelor,Full-time,Rural,3163.57,6811.5,No,,1
+Non-binary,41,Master,Part-time,Suburban,2565.17,1693.94,No,9.4,1
+Male,45,Master,Unemployed,Suburban,2309.12,3443.82,Yes,6.4,0
+Male,25,Bachelor,Part-time,Rural,,4809.3,Yes,5.3,0
+Female,45,Master,Full-time,Suburban,3922.93,3684.22,Yes,1.5,0
+Female,53,High School,Part-time,Urban,,4209.07,Yes,7,1
+Female,43,High School,Full-time,Suburban,1025.86,4231.51,No,6.2,0
+Female,25,Bachelor,Unemployed,Urban,4042.61,4613.69,Yes,9.9,0
+Female,45,PhD,Freelance,Rural,2480.15,3905.82,No,3.2,0
+Non-binary,45,PhD,Unemployed,Urban,1350.92,3783.18,No,5.8,1
+Male,54,Bachelor,Part-time,Suburban,4045.74,6401.46,No,6.9,0
+Male,58,Bachelor,Part-time,Suburban,3169.12,6574.48,Yes,6.8,0
+Male,53,High School,Unemployed,Suburban,3251.57,2929.18,Yes,6.1,0
+Male,44,PhD,Unemployed,Rural,,860.6,No,8,0
+Female,34,,Full-time,Rural,1690.02,6595.06,No,2.8,0
+Male,26,High School,Part-time,Suburban,1368.5,3156.8,No,7.5,1
+Non-binary,50,Bachelor,Part-time,Urban,4580.95,5319.12,Yes,6.6,1
+Non-binary,37,PhD,Unemployed,Rural,1562.83,2651.49,No,9.1,1
+Male,30,Master,Freelance,Suburban,1777.76,6946.63,Yes,8.6,0
+Male,45,Master,Part-time,Suburban,1977.56,8815.5,No,3.8,1
+Non-binary,46,High School,Freelance,Rural,5079.95,5274.21,No,,1
+Non-binary,30,PhD,Unemployed,Rural,3493.38,4858.85,No,9.8,1
+Female,63,PhD,Unemployed,Rural,3965.41,4516.79,Yes,5.7,0
+Non-binary,52,Bachelor,Full-time,Urban,3196.17,6172.7,Yes,9.2,0
+Female,23,,Part-time,Urban,2398.11,5851.53,No,2.5,1
+Female,35,PhD,Freelance,Suburban,,6505.25,Yes,6.8,1
+Female,22,High School,Full-time,Rural,1443.38,4058.13,No,,0
+Female,64,PhD,Part-time,Urban,1904.72,5510.18,Yes,9.5,0
+Female,42,,Full-time,Rural,3732.98,4186.3,Yes,4,1
+Male,19,High School,Unemployed,Suburban,1642.74,3413.43,Yes,7.5,0
+Non-binary,27,High School,Part-time,Urban,2810.92,4938.48,No,5.8,1
+Female,47,Bachelor,Full-time,Urban,2856.49,3616.23,Yes,1.5,0
+Non-binary,62,PhD,Full-time,Urban,2471.34,6760.59,Yes,7.2,1
+Non-binary,22,Bachelor,Freelance,Suburban,1048.88,3707.12,No,7.2,1
+Female,50,Master,Full-time,Rural,2371.07,5545.32,No,9.4,0
+Male,18,High School,Part-time,Urban,2175.03,4094.87,No,5.5,1
+Female,35,High School,Part-time,Suburban,3161.44,5415.59,No,3.1,1
+Male,49,High School,Freelance,Rural,3110.49,4214.01,Yes,1.4,1
+Non-binary,64,Master,Part-time,Suburban,3377.96,3114.18,Yes,4.7,0
+Male,28,Master,Unemployed,Rural,2324.01,5725.66,Yes,3.7,0
+Male,38,Bachelor,Part-time,Suburban,3522.78,4646.88,Yes,7.8,0
+Male,43,Bachelor,Part-time,Rural,1443.99,5428.98,Yes,4.2,1
+Non-binary,42,Bachelor,Full-time,Urban,1178.1,4356.74,No,9.5,0
+Non-binary,39,PhD,Full-time,Rural,664.43,3008.1,Yes,9.7,1
+Male,44,High School,Part-time,Suburban,2500.7,6624.77,Yes,6.6,1
+Male,30,,Freelance,Suburban,,6105.14,Yes,9.4,0
+Female,50,Bachelor,Full-time,Rural,,4149.56,No,7.8,0
+Male,51,High School,Freelance,Urban,2351.34,5104.67,No,5.9,1
+Female,58,Bachelor,Part-time,Urban,3273.38,6563.03,Yes,2.6,1
+Male,52,PhD,Part-time,Rural,,4314.44,No,5.1,0
+Female,18,PhD,Unemployed,Rural,2313.68,4547.17,No,6,0
+Non-binary,38,Master,Full-time,Suburban,3298.05,5365.45,No,8.8,0
+Male,23,PhD,Part-time,Urban,,4311.36,No,5.3,1
+Male,45,Bachelor,Unemployed,Rural,1761.84,6285.64,No,9.1,1
+Male,34,,Full-time,Urban,3024.85,4746.65,No,7.1,1
+Male,22,Master,Part-time,Rural,2317.97,3823.95,No,2.2,1
+Female,48,High School,Part-time,Rural,1825.51,5912.96,Yes,10,1
+Male,22,Bachelor,Full-time,Urban,1463.55,3286.8,Yes,5.7,0
+Non-binary,55,High School,Full-time,Rural,1809.35,8022.32,No,4.5,0
+Non-binary,20,Master,Full-time,Rural,3060.03,7373.74,Yes,,1
+Male,40,Master,Part-time,Suburban,1389.16,5770.24,Yes,,1
+Non-binary,54,Master,Part-time,Rural,2449.27,5644,No,6.7,0
+Male,54,High School,Unemployed,Rural,3813.19,5573.66,Yes,5.5,0
+Male,27,High School,Freelance,Rural,3449.01,4266.36,No,4.7,0
+Non-binary,27,High School,Full-time,Suburban,2469.49,5445.96,No,9.6,0
+Male,36,High School,Part-time,Urban,4689.69,3615.3,No,5.7,1
+Non-binary,34,Master,Part-time,Suburban,4893.04,5755.73,Yes,3,0
+Female,38,Master,Full-time,Suburban,3026.12,6301.77,Yes,5.1,1
+Male,31,Bachelor,Freelance,Urban,531.46,4432.87,Yes,9.3,0
+Female,26,Bachelor,Full-time,Suburban,3886.45,4107.35,Yes,2.6,0
+Non-binary,63,High School,Freelance,Urban,706.02,3181.28,No,2.9,0
+Female,18,PhD,Part-time,Suburban,4476.15,7186.93,No,,1
+Female,62,PhD,Freelance,Urban,4083.58,4226.5,Yes,1.1,1
+Non-binary,30,Master,Unemployed,Rural,,4701.89,No,8.5,0
+Female,21,Master,Part-time,Suburban,3260.27,5450.23,No,7.6,1
+Female,18,Master,Unemployed,Suburban,2638.61,5423.31,Yes,4.2,1
+Non-binary,57,Bachelor,Full-time,Suburban,2549.9,6119.84,No,7.3,0
+Female,49,Bachelor,Full-time,Suburban,2453.74,4431.01,Yes,4.6,0
+Non-binary,51,Master,Full-time,Rural,3981.07,3292,No,9.6,1
+Female,45,Master,Freelance,Suburban,3712.27,3029.5,Yes,9.7,1
+Non-binary,48,Master,Part-time,Rural,3120.23,4131.12,No,4.5,1
+Non-binary,25,PhD,Full-time,Rural,2277.82,3572.22,No,8.7,0
+Female,56,Bachelor,Full-time,Rural,5629.21,4544.57,Yes,8,0
+Female,43,,Part-time,Rural,3912.37,6961.37,Yes,3.8,1
+Female,51,PhD,Full-time,Urban,1402.29,4434.08,Yes,3.1,0
+Male,20,Master,Unemployed,Urban,2483.74,4433.52,Yes,5.1,0
+Male,29,Master,Part-time,Suburban,3931.78,4975.4,No,8,1
+Male,18,High School,Part-time,Urban,2200.46,4391.56,No,9.6,1
+Non-binary,61,High School,Part-time,Urban,3351.55,4898.91,Yes,7.9,0
+Female,22,,Unemployed,Suburban,3950.8,5811.3,No,8.7,0
+Non-binary,47,Bachelor,Part-time,Suburban,-388.43,6327.13,Yes,6.4,1
+Male,47,Master,Unemployed,Suburban,2891.96,6504.82,Yes,,0
+Female,34,Master,Part-time,Urban,2931.21,8085.28,No,8.1,0
+Non-binary,64,PhD,Freelance,Urban,2587.93,5854.04,No,4.4,1
+Female,40,High School,Full-time,Suburban,3301.7,8351.72,Yes,6,1
+Non-binary,32,Bachelor,Freelance,Rural,3657.52,3835.28,Yes,8.2,0
+Female,54,High School,Full-time,Suburban,3142.05,8136.93,Yes,1.4,0
+Male,38,High School,Unemployed,Rural,2626.17,4429.44,No,,0
+Male,31,High School,Freelance,Rural,3632.62,4576.97,No,2.6,1
+Female,19,High School,Part-time,Suburban,3049.05,4820.19,No,5.6,0
+Non-binary,28,Master,Full-time,Suburban,2769.3,4672.07,No,8.3,0
+Male,56,Master,Full-time,Suburban,1687.72,5128.76,Yes,3.3,1
+Male,55,High School,Freelance,Urban,,4129.96,Yes,3.2,1
+Male,51,Bachelor,Unemployed,Rural,1668.77,6244.94,Yes,4.6,0
+Female,55,PhD,Freelance,Urban,3278.33,4170.75,Yes,9.1,1
+Female,51,Bachelor,Unemployed,Urban,2920.92,5983.42,Yes,1,1
+Non-binary,35,Bachelor,Unemployed,Suburban,1519.72,7291.59,Yes,9.1,0
+Non-binary,47,Bachelor,Full-time,Urban,3645.92,4464.35,No,2.4,1
+Non-binary,32,High School,Freelance,Suburban,4374.31,6191.58,No,,1

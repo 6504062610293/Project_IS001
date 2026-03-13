@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Platform - Training Success (Regression)</title>
+    <!-- ใช้งาน Bootstrap 5 ผ่าน CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chart.js สำหรับการแสดงกราฟ -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .accuracy-text {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #198754;
+        }
+
+        .model-card {
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .model-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <!-- แถบนำทาง Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">Dataset Analysis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">เลือกชุดข้อมูล (Dataset)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Ensemble ML</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Neural Network</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- คอนเทนเนอร์หลัก -->
+    <div class="container mt-5 mb-5">
+
+        <div class="text-center mb-5">
+            <h1 class="fw-bold text-success mb-3">✅ ฝึกสอนโมเดล (Regression) สำเร็จ</h1>
+            <p class="text-muted fs-5">ระบบได้ทำการเรียนรู้รูปแบบข้อมูลค่าใช้จ่ายประกันสุขภาพ เรียบร้อยแล้ว ทั้ง 2 อัลกอริทึม</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <!-- 1. Ensemble ML Card -->
+            <div class="col-md-6 col-lg-5">
+                <div class="card h-100 border-0 shadow-sm model-card">
+                    <div class="card-header bg-white border-bottom border-light pt-4 pb-0">
+                        <h3 class="fw-bold text-primary">Ensemble ML Regressor</h3>
+                        <p class="text-muted">Random Forest + SVR + KNN</p>
+                    </div>
+                    <div class="card-body text-center d-flex flex-column">
+                        <div class="mb-4 mt-3">
+                            <span class="text-secondary d-block mb-2">ค่าความแม่นยำรวม (Ensemble R²)</span>
+                            <div class="accuracy-text text-primary">{{ (ml_results.metrics.ensemble_r2 * 100)|round(2) }}%</div>
+                        </div>
+
+                        <div class="text-start fs-6 p-3 bg-light rounded text-muted">
+                            <p class="mb-2"><strong>ประสิทธิภาพของทั้ง 3 โมเดลย่อย:</strong></p>
+                            <ul class="mb-1">
+                                <li>Random Forest: {{ (ml_results.metrics.rf_r2 * 100)|round(2) }}%</li>
+                                <li>SVR (Support Vector): {{ (ml_results.metrics.svm_r2 * 100)|round(2) }}%</li>
+                                <li>KNN: {{ (ml_results.metrics.knn_r2 * 100)|round(2) }}%</li>
+                            </ul>
+                            <small>(Ensemble MSE: {{ "%.2f"|format(ml_results.metrics.ensemble_mse) }})</small>
+                        </div>
+
+                        <!-- ดันปุ่มไปล่างสุด -->
+                        <div class="mt-auto pt-3">
+                            <a href="/model/ml_regression"
+                                class="btn btn-outline-primary w-100 py-2 fw-bold">ดูรายละเอียดและทดสอบโมเดล</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Neural Network Card -->
+            <div class="col-md-6 col-lg-5">
+                <div class="card h-100 border-0 shadow-sm model-card">
+                    <div class="card-header bg-white border-bottom border-light pt-4 pb-0">
+                        <h3 class="fw-bold text-danger">Neural Network Regressor</h3>
+                        <p class="text-muted">Multi-Layer Perceptron (MLP)</p>
+                    </div>
+                    <div class="card-body text-center d-flex flex-column">
+                        <div class="mb-4 mt-3">
+                            <span class="text-secondary d-block mb-2">ค่าความแม่นยำ (R² Score)</span>
+                            <!-- เปลี่ยนเป็นสีแดง/danger ให้ต่างกัน -->
+                            <div class="accuracy-text text-danger">{{ (nn_results.r2_score * 100)|round(2) }}%</div>
+                        </div>
+
+                        <p class="text-start fs-6 p-3 bg-light rounded text-muted">
+                            โครงข่ายประสาทเทียมจำลองการทำงานของสมองมนุษย์ โมเดลถูกออกแบบให้มี 32-16 Neurons (Hidden
+                            Layer) (Mean Squared Error: {{ "%.2f"|format(nn_results.mse) }})
+                        </p>
+
+                        <!-- ดันปุ่มไปล่างสุด -->
+                        <div class="mt-auto pt-3">
+                            <a href="/model/nn_regression"
+                                class="btn btn-outline-danger w-100 py-2 fw-bold">ดูรายละเอียดและทดสอบโมเดล</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ใช้งาน Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
